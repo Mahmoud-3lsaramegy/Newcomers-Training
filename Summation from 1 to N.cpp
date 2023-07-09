@@ -15,3 +15,4 @@ int main(){
     long int N = 0 ;cin>>N;
     cout<<sumation(N)<<endl;
 }
+//runtime proplem
