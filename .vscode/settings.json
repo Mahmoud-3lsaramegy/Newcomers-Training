@@ -2,6 +2,15 @@
     "files.associations": {
         "limits": "cpp",
         "list": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "functional": "cpp",
+        "string_view": "cpp",
+        "streambuf": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

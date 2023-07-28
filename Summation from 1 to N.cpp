@@ -1,18 +1,18 @@
 #include <iostream>
+#include <vector>
+#include <stdint.h>
 #include<limits>
-#include <list>
 using namespace std;
-
-unsigned long long  sumation(unsigned long int n = 0){
-    unsigned long int l[n],sum = 0;
-    for(unsigned int i=0 ; i<n ; i++){
-        l[i]=i+1;
+int main(){
+    int N = 0 ;cin>>N;
+    vector <int_fast64_t> l;
+      int_fast64_t  sum = 0;
+        for( int i=0 ; i<N ; i++){
+        l.push_back(i+1);
         sum +=l[i];
         }
-        return sum;
+        cout<<sum<<endl;
+      
+
 }
-int main(){
-    long int N = 0 ;cin>>N;
-    cout<<sumation(N)<<endl;
-}
-//runtime proplem
+
